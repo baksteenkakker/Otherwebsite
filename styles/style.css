@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Calibri';
+}
+
+/*--------------------------Header-----------------------------*/
+
+header{
+    width:100vw;
+    height:15vh;
+    padding:10px;
+    background-color:black;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    color:white;
+    position:relative;
+    right:100px;
+}
+
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+header nav ul li{
+    list-style: none;
+    margin:5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+header figure{
+    width:15%;
+}
+
+header figure img{
+    width:100%;
+}
+
+/*--------------------------Header end-------------------------*/
+
+/*--------------------------Videocontainer-----------------------------*/
+
+div.videocontainer{
+    width:100%;
+    height:80vh;
+    background-color: orange;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+div.videocontainer video{
+    height:70%
+}
+
+div.videocontainer section{
+    width:20vw;
+    height:70%;
+    margin-left:2%;
+
+    background-color:black;
+    color:white;
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    text-align:center;
+}
+
+div.videocontainer section .logo{
+    width:50%;
+}
+
+div.videocontainer section .logo img{
+    width:100%;
+}
+
+div.videocontainer section h2{
+    margin:0 20px;
+    font-size: 30px;
+}
+
+div.videocontainer section p{
+    margin:10px 20px;
+}
+
+div.videocontainer section .download{
+    margin-top: 15%;
+    width:50%;
+}
+
+div.videocontainer section .download img{
+    width:100%;
+}
+
+/*--------------------------Videocontainer end-----------------------------*/
+
+/*--------------------------Infocontainer-----------------------------*/
+
+div.infocontainer{
+    width:100%;
+    height:80vh;
+    background-color:orchid;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.One{
+    display:flex;
+    flex-direction:row;
+}
+
+.fig1{
+    width:20vw;
+    height:30vh;
+
+    margin:5px;
+    padding:20px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.One article{
+    width:40vw;
+    height:30vh;
+
+    margin:5px;
+    padding:20px;
+}
+
+.fig2{
+    width:20vw;
+    height:30vh;
+
+    margin:5px;
+    padding:20px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.Two{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+div.Two article{
+    width:40vw;
+    height:30vh;
+
+    margin:5px;
+    padding:20px;
+}
+
+.fig3{
+    width:20vw;
+    height:30vh;
+
+    margin:5px;
+    padding:20px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fig4{
+    width:20vw;
+    height:30vh;
+
+    margin:5px;
+    padding:20px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------Infocontainer end-----------------------------*/
+
+/*--------------------------Aboutcontainer-----------------------------*/
+
+div.aboutcontainer{
+    width:100%;
+    height:80vh;
+    background-color:lightblue;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.aboutcontainer article{
+    width:20vw;
+    height:60vh;
+
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+
+div.aboutcontainer article h2{
+    font-size:30px;
+    padding-bottom:5px;
+}
+
+div.aboutcontainer div{
+    width: 60vw;
+    height:60vh;
+
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:2%;
+}
+
+div.aboutcontainer div figure{
+    width:20%;
+    margin:5px;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+div.aboutcontainer div figure img{
+    width:100%;
+    border-radius:50%;
+}
+
+/*--------------------------Aboutcontainer end-----------------------------*/
+
