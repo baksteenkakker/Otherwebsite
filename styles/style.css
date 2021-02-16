@@ -277,3 +277,41 @@ div.aboutcontainer div figure img{
 
 /*--------------------------Aboutcontainer end-----------------------------*/
 
+/*--------------------------Footer-----------------------------*/
+
+footer{
+    height:20vh;
+    background-color:black;
+
+    padding:100px;
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}   
+
+footer div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer figure{
+    width:15%;
+    margin-top:-15px;
+}
+
+footer figure img{
+    width:100%;
+}
+
+footer a{
+    color:white;
+}
+
+footer p{
+    color:white;
+}
+
+/*--------------------------Footer end-----------------------------*/
