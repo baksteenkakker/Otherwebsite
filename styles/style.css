@@ -4,15 +4,18 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Calibri';
 }
-
 /*--------------------------Header-----------------------------*/
 
 header{
     width:100%;
-    height:15vh;
+    height:100px;
     padding:10px;
     background-color:black;
 
@@ -51,7 +54,7 @@ header nav ul li a:hover{
 }
 
 header figure{
-    width:15%;
+    width:12%;
 }
 
 header figure img{
