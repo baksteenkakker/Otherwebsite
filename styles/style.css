@@ -19,6 +19,9 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-between;
+
+    position:sticky;
+    top:0px;
 }
 
 header nav{
@@ -146,6 +149,8 @@ div.One{
     display:flex;
     justify-content: center;
     align-items: center;
+
+    background-color: rgba(0,0,0, 0.7);
 }
 
 div.One article{
@@ -154,6 +159,9 @@ div.One article{
 
     margin:5px;
     padding:20px;
+
+    background-color: rgba(0,0,0, 0.7);
+    color:white;
 }
 
 .fig2{
@@ -166,6 +174,8 @@ div.One article{
     display:flex;
     justify-content: center;
     align-items: center;
+
+    background-color: rgba(0,0,0, 0.7);
 }
 
 div.Two{
@@ -179,6 +189,9 @@ div.Two article{
 
     margin:5px;
     padding:20px;
+
+    background-color: rgba(0,0,0, 0.7);
+    color:white;
 }
 
 .fig3{
@@ -191,6 +204,8 @@ div.Two article{
     display:flex;
     justify-content: center;
     align-items: center;
+
+    background-color: rgba(0,0,0, 0.7);
 }
 
 .fig4{
@@ -203,6 +218,8 @@ div.Two article{
     display:flex;
     justify-content: center;
     align-items: center;
+
+    background-color: rgba(0,0,0, 0.7);
 }
 
 /*--------------------------Infocontainer end-----------------------------*/
