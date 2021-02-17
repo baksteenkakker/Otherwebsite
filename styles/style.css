@@ -4,13 +4,28 @@
     box-sizing:border-box;
 }
 
+@font-face{
+    font-family:nightjump;
+    src: url("../Fonts/nightjump.regular\(1\).ttf");
+}
+
+@font-face{
+    font-family:galguna;
+    src: url("../Fonts/galguna-free-trial.regular\(1\).otf");
+}
+
 html{
     scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Calibri';
+body h2{
+    font-family: galguna;
 }
+
+body{
+    font-family: nightjump;
+}
+
 /*--------------------------Header-----------------------------*/
 
 header{
@@ -111,6 +126,8 @@ div.videocontainer section h2{
 
 div.videocontainer section p{
     margin:10px 20px;
+
+    font-size:20px;
 }
 
 div.videocontainer section .download{
@@ -167,6 +184,15 @@ div.One article{
     color:white;
 }
 
+div.One article h2{
+    font-size: 40px;
+    margin-bottom:5px;
+}
+
+div.One article p{
+    font-size: 26px;
+}
+
 .fig2{
     width:20vw;
     height:30vh;
@@ -195,6 +221,15 @@ div.Two article{
 
     background-color: rgba(0,0,0, 0.7);
     color:white;
+}
+
+div.Two article h2{
+    font-size: 40px;
+    margin-bottom:5px;
+}
+
+div.Two article p{
+    font-size: 26px;
 }
 
 .fig3{
@@ -250,8 +285,12 @@ div.aboutcontainer article{
 }
 
 div.aboutcontainer article h2{
-    font-size:30px;
+    font-size:40px;
     padding-bottom:5px;
+}
+
+div.aboutcontainer article p{
+    font-size:26px;
 }
 
 div.aboutcontainer div{
@@ -277,6 +316,10 @@ div.aboutcontainer div figure{
 div.aboutcontainer div figure img{
     width:100%;
     border-radius:50%;
+}
+
+div.aboutcontainer div figure figcaption{
+    color:white;
 }
 
 /*--------------------------Aboutcontainer end-----------------------------*/
