@@ -127,7 +127,7 @@ div.videocontainer section h2{
 div.videocontainer section p{
     margin:10px 20px;
 
-    font-size:20px;
+    font-size:1vw;
 }
 
 div.videocontainer section .download{
@@ -190,7 +190,7 @@ div.One article h2{
 }
 
 div.One article p{
-    font-size: 26px;
+    font-size: 1.6vw;
 }
 
 .fig2{
@@ -229,7 +229,7 @@ div.Two article h2{
 }
 
 div.Two article p{
-    font-size: 26px;
+    font-size: 1.6vw;
 }
 
 .fig3{
